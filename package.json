@@ -1,0 +1,16 @@
+{
+  "name": "leetcode-problems",
+  "version": "1.0.0",
+  "description": "Solutions to leetcode practice problems",
+  "main": "n",
+  "scripts": {
+    "test": "jest"
+  },
+  "type": "module",
+  "author": "Subha",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-transform-modules-commonjs": "^7.24.8",
+    "jest": "^29.7.0"
+  }
+}
