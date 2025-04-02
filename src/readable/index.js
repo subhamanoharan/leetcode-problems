@@ -7,9 +7,9 @@ export function createReadableStream(str) {
     readableStream.on('data', (chunk) => {
         for(let i = 0;i<chunk.length; i++) {
             const c = chunk[i]
-            console.log(data.includes(c) ? 'duplicate' : 'received', c)
+            // console.log(data.includes(c) ? 'duplicate' : 'received', c)
             data += c;
         }
     });
-    return readableStream
+    return readableStream;
 }
